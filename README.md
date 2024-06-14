@@ -268,4 +268,6 @@ sudo apt-get update
 - sudo systemctl enable/disable/start/restart/stop/status rabbitmq-server
 - rabbitmqctl change_password oscar password
 
+# Fix networking lose
+nmcli networking on
 
